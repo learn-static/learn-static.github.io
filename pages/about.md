@@ -1,6 +1,6 @@
 ---
-title: Why Lib-Static?
-nav: Why?
+title: About Learn-Static
+nav: About
 nav_order: 1
 #section: Why?
 section-color: primary

@@ -1,8 +1,8 @@
 ---
-title: Community
-nav: Community
+title: How to Use
+nav: How to Use
 nav_order: 4
-section: Community
+section: How to Use
 section-color: info
 ---
 
