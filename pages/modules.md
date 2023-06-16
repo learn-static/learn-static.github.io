@@ -8,9 +8,14 @@ layout: page
 #foot: js/browse-all.html
 ---
 
-Learn-Static's five Learning Modules cover basic introductory concepts in static web development, including GitHub, HTML, Markdown, data concepts, and computational methods.
-Modules are written in markdown files hosted on GitHub for easy copying and reuse.
-Each module takes 30 minutes or less to complete.
+**Purpose**:
+
+- Learning Modules cover basic introductory concepts in static web development, including GitHub, HTML, Markdown, data concepts, and computational methods.
+
+**Format**:
+
+- Modules are written in markdown files hosted on GitHub for easy copying and reuse.
+- Each module takes 30 minutes or less to complete.
 
 **Use Cases**:
 - Assign one or more modules as homework for students before beginning a static web project in the classroom
@@ -22,7 +27,8 @@ Each module takes 30 minutes or less to complete.
     <div class="card my-2">
     <div class="card-body">
         <h4 class="card-title"><a href="{{ m.link }}" target="_blank" rel="noopener">{{ m.title}}</a></h4>
-        <p class="card-text"><strong>Skills:</strong> {{ m.skills }}</p>
+        <p class="card-text"><strong>Skills:</strong> {{ m.skills }}<br>
+        <strong>Author:</strong> {{ m.author }}</p>
         <p class="card-text">{{ m.description }}</p>
     </div>
     </div>
