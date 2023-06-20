@@ -7,19 +7,27 @@ section-color: warning
 #foot: js/concepts.html
 ---
 
+<div class="container content-narrow pb-2" markdown="1">
+
 ## Purpose:
 
-- Reusable static web code templates and documentation for projects that focus on teaching concepts around digital collections, oral histories, text analysis, and responsible data curation.
+Reusable static web code templates and documentation for projects that focus on teaching concepts around digital collections, oral histories, text analysis, and responsible data curation.
 
 ## Format:
 
-- Each project's template code is hosted in a GitHub repository and accompanied by example documentation and lesson plans that can be adapted to fit a specific classroom context or need.
+Each project's template code is hosted in a GitHub repository and accompanied by example documentation and lesson plans that can be adapted to fit a specific classroom context or need.
 
 ## Use Cases:
 
-- Incorporate projects into a humanities or social science-focused classroom to enhance critical engagement with cultural material while also teaching transferable technical skills such as data management and web literacy.
+Incorporate projects into a humanities or social science-focused classroom to enhance critical engagement with cultural material while also teaching transferable technical skills such as data management and web literacy.
 
-<div class="row">
+</div>
+
+<hr>
+
+## Browse Templates
+
+<div class="row pt-2">
 {%- for t in site.data.templates -%}
 <div class="col-md-4">
     <div class="card my-2">
