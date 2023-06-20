@@ -30,7 +30,7 @@ Static generators' low server requirements remove barriers to online publication
 
 Learn-Static is piloted by librarians who regularly use static web methodologies to produce library websites, digital collections, and digital scholarship projects, and who see a need for resources that facilitate learning transferable technical skills in the digital humanities classroom.
 
-To this end, the Learn-Static team has created short, versatile [learning modules]({{ '/modules/' | relative_url }}){:.btn .btn-success} that introduce basic concepts in static web development, including GitHub, HTML, Markdown, data concepts, and computational methods, in addition to reusable [static web code templates]({{ '/templates/' | relative_url }}){:.btn .btn-warning} and documentation for projects that focus on teaching concepts around digital collections, oral histories, text analysis, and responsible data curation.
+To this end, the Learn-Static team has created short, versatile [learning modules]({{ '/modules/' | relative_url }}){:.btn .btn-success .text-white} that introduce basic concepts in static web development, including GitHub, HTML, Markdown, data concepts, and computational methods, in addition to reusable [static web code templates]({{ '/templates/' | relative_url }}){:.btn .btn-warning .text-white} and documentation for projects that focus on teaching concepts around digital collections, oral histories, text analysis, and responsible data curation.
 
 {:.mt-4 .mb-3}
 ## Who is this for?
