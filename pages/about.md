@@ -2,96 +2,83 @@
 title: About Learn-Static
 nav: About
 nav_order: 1
-#section: Why?
 section-color: primary
 layout: page-narrow
 ---
 
-Are you tired of learning platforms rather than skills? 
-Frustrated with over-bloated systems? 
-Siloed by the tools you know and the tools you don't?
-{:.fs-5}
+{:.mt-4 .mb-3}
+## What is Learn-Static?
 
-It might be time to explore the Lib-Static approach, a development methodology that leverages static web technologies and librarian skills to create engaging web publications hosted on minimal infrastructure.
+Learn-Static is an initiative to develop and model digital scholarship projects that teach students ***skills***, not systems.
+When students engage in statically-generated digital projects, they interact with spreadsheets, data transformation, and a variety of methods of writing for the web, all of which increase their digital literacies and inform their critical understanding of the other websites and technical processes they'll encounter in the future.
 
-This site highlights the [Models]({{ '/models/' | relative_url }}){:.btn .btn-success}, [Concepts]({{ '/concepts/' | relative_url }}){:.btn .btn-warning}, and [Communities]({{ '/community/' | relative_url }}){:.btn .btn-info} that can enable Lib-Static projects to transform how you do **_digital_** in libraries, sharing viable static web solutions for infrastructure problems of all sizes.
+Too often, the dynamic platforms we use for classroom digital scholarship projects force instructors and librarians to struggle with initial project set up, ongoing maintenance requirements, project preservation, and lack of customization options while also limiting students' interaction with fundamental concepts of web literacy beyond its applicability to their understanding of the platform's user interface.
+
+Learn-Static addresses this issue by designing projects and instructional material that facilitates students' engagement with open project code and data management throughout a project's creation.
+
+Our ultimate goal for these projects is that they will enable students to make those same conceptual leaps in regards to digital technologies and culture that they might make in any humanities class—from passive consumption of material to critical engagement with it.
+More specifically, students will learn spreadsheet management, version control, basic coding, and other digital skills through engagement with static web technologies and data structures, and by seeing these skills lead to the development of substantial, interactive web projects students will be empowered to bring the same spirit of critical inquiry that they focus on humanities content to their understanding of the tools and processes they use to manipulate and share digital content.
 
 {:.mt-4 .mb-3}
-## Why?
+## How does it work?
 
-Many of us started on a static web approach because we were **frustrated** with the library systems we used daily.
+Learn-Static is founded on a static web development methodology that is informed by the [CollectionBuilder](https://collectionbuilder.github.io/) and [Lib-Static](https://lib-static.github.io/) projects, and focuses on extending that methodology into pedagogical practice following an approach to creating open education materials modeled by the [Carpentries](https://software-carpentry.org/about/).
 
-We spent extensive efforts setting up heavy database driven platforms (or paid 3rd parties to do so), and found ourselves giving up control over our data, being locked into proprietary contracts, and excluded from development decisions.
-Our time was consumed with maintaining complex system overhead, rather than on collaborating with researchers, creating data, and providing high quality access to users.
+Static website generators, such as [​Jekyll](https://jekyllrb.com/)​, offer an alternative to dynamic web applications by creating complete websites composed of "static" HTML, CSS, and JS files that can be served from any web directory.
+They do this by iterating over a structured folder of files containing content, templates, configuration options, and data that are typically contained in one repository that can be stored and edited on GitHub, GitLab, or other code hosting sites.
+Static generators' low server requirements remove barriers to online publication commonly encountered with web projects​ while also creating projects that are collaborative, reusable for other purposes, and preservable for future use and study.
 
-We started to see that there were ways to build these systems and tools that could reverse these opportunity costs, leveraging and building the skills of librarians and cultural heritage workers to put the unique resources and values of the institution at the forefront of project design decisions. 
+Learn-Static is piloted by librarians who regularly use static web methodologies to produce library websites, digital collections, and digital scholarship projects, and who see a need for resources that facilitate learning transferable technical skills in the digital humanities classroom.
 
-{:.mt-4 .mb-3}
-## A Methodology
-
-<table class="table table-bordered align-middle border-info my-5">
-    <tr>
-        <td class="text-center h3">Open</td>
-        <td><ul class="my-2">
-            <li>open data / data driven</li>
-            <li>open source / collaborative development</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td class="text-center h3">Simple(ish)</td>
-        <td><ul class="my-2">
-            <li>minimal infrastructure requirements (less IT)</li>
-            <li>lower barriers to development</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td class="text-center h3">Librar* Optimized</td>
-        <td><ul class="my-2">
-            <li>full control over content and data (no 3rd parties)</li>
-            <li>leverage / build librarian skills</li>
-            <li>preservation ready</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td class="text-center h3">User Focused</td>
-        <td><ul class="my-2">
-            <li>simple standards based HTML = useability, accessibility</li>
-            <li>engaging design and user interaction</li>
-            <li>visualizations for context and discovery</li>
-        </ul></td>
-    </tr>
-</table>
+To this end, the Learn-Static team has created short, versatile [learning modules]({{ '/modules/' | relative_url }}){:.btn .btn-success} that introduce basic concepts in static web development, including GitHub, HTML, Markdown, data concepts, and computational methods, in addition to reusable [static web code templates]({{ '/templates/' | relative_url }}){:.btn .btn-warning} and documentation for projects that focus on teaching concepts around digital collections, oral histories, text analysis, and responsible data curation.
 
 {:.mt-4 .mb-3}
-## Static Web Opportunities
+## Who is this for?
 
-Informed by the philosophy of minimal computing, the Lib-Static methodology centers digital infrastructure approaches around the unique needs, values, and opportunities of libraries and other GLAM organizations.
-Simply stated, Lib-Static approaches seek to apply the techniques of the modern static web to solve problems in the digital library/digital scholarship ecosystem. 
+Instructors, librarians, and students!
 
-The Lib-Static approach focuses on practical, sustainable workflows using data-driven static web templates hosted on simplified infrastructure while leveraging (and building) the in-house specialized skills of librarians in metadata, data, and organization. 
-This provides librarians unique agency and ownership over their systems, as well as meaningful opportunities for professional development leading to fundamental digital skills. 
+Learn-Static materials are designed to be reused and remixed by instructors and librarians to suit the needs of their teaching.
+Example step-by-step instructions for students are included in each module and template project. 
 
-## Static Web in Context
+Most importantly, we recognize that instructors and librarians might be just as new to the static web development style as their students!
+To address this, we've created sample lesson plans, documentation, and additional resources specifically for instructors to understand the technologies being used.
 
-Since around 2015 static site generators and the ["JAM Stack"](https://jamstack.wtf/) approach have exploded in the web development landscape--utilizing simplified markup, plain text data files, and web APIs to create complete websites without the need for complex server-side software, databases, or content management systems. 
+{:.mt-4 .mb-3}
+## Who created these learning resources?
 
-Rather than a relying on server-side processing to generate a dynamic page on the fly for each user request, static web tools "pre-render" every page into HTML, CSS, and JS files that can be delivered directly to users with high performance, efficiency, and security from the most basic web servers or services. 
-The modern static web approach provides high performance for users, minimal infrastructure requirements for IT, and lower barriers for developers. 
+In 2021 the University of Idaho Library and University of Oregon Libraries received a National Endowment for the Humanities (NEH) Level I Digital Humanities Advancement Grant in the amount of $49,919 to create, test, evaluate, and publish the Learn-Static materials.
+A team of librarians developed and taught the modules and templates in collaboration with History and English professors.
+Modules and templates were created and incorporated into the classroom in Fall 2021 and Spring 2022 and evaluated by the grant project's advisory board in Summer 2022.
 
-The simplified infrastructure and development environment of static web approaches are uniquely suited to enable:
+### Project Team
 
-- Periods of focused development and collaboration, followed by much longer periods minimal maintenance.
-- Project work focusing on creating data independent of platform, which simplifies the initial infrastructure decision points and overhead while ensuring preservation and migration ready content.
-- Rapid design and data iterations--building projects in smaller steps allows data to be published faster, getting feedback earlier with less initial investment required and the opportunity for phases of progressive enhancement.
-- A focus on modular components, templates, and recipes that encourage learning investment on one project leading to efficiencies on another, building complementary work that powers further research and learning.
-- Public documentation and sharing, making investment more reusable while creating artifacts of learning alongside research and publications.
+{:.mt-3}
+#### Librarians
 
-## It Ain't Perfect
+- **Olivia Wikle**, Digital Initiatives Librarian, University of Idaho (*Principal Investigator*)
+- **Kate Thornhill**, Digital Scholarship Librarian, University of Oregon (*Co-Principal Investigator*)
+- **Gabriele Hayden**, Research Data Management and Reproducibility Librarian, University of Oregon (*Co-Principal Investigator*)
+- **Evan Williamson**, Head of Digital Scholarship and Open Strategies, University of Idaho (*Co-Investigator / Technical Lead*)
+- **Devin Becker**, Associate Dean of Research and Instruction, University of Idaho (*Co-Investigator / Technical Lead*)
+- **Rayne Vieger**, Coordinator, eLearning & Open Educational Resources (OER), University of Oregon (*Instructional Designer*)
 
-We recognize that there will be learning curves and frustrations in the development and use of any system, regardless of its underlying methodology. 
-Lib-Static acknowledges that all digital projects require investment in learning and seeks to maximize the local impact and value of learning during the process, while establishing technical solutions and social workflows that more closely match the structure of library work cycles and needs. 
+#### Instructors
 
-Things will still break. 
-You may still have the urge to pound your head on the monitor while learning and debugging. 
+- **Rebecca Scofield**, Professor of History, University of Idaho
+- **Matthew Fox-Amato**, Professor of History, University of Idaho
+- **Adam Sowards**, Professor Emeritus of History, University of Idaho
+- **Mattie Burkert**, Professor of Digital Humanities, University of Oregon
 
-**_But for us, the Lib-Static community, there's something powerful to this approach, and we wanted to share with any of you that might be interested_**
+#### Advisory Board
+
+- **Chelcie Juliet Rowell**, Head of Digital Scholarship, Tufts University
+- **Anne B. McGrail**, Professor of Writing and Literature, Lane Community College
+- **Alanna Prince**, English PhD Student, Northeastern University
+
+{:.mt-4 .mb-3}
+## How can I get in touch?
+
+Have a question about how to use the resources on this site?
+Contact [Olivia Wikle](mailto:omwikle@iastate.edu).
+
+Also check out the [Lib-Static](https://lib-static.github.io/) site to learn more about [static web](https://lib-static.github.io/about/) and the community of practitioners implementing it in digital scholarship projects at a variety of institutions!
