@@ -20,7 +20,7 @@ Learn-Static is a collection of lesson modules and digital scholarship project t
 </div>
 -->
 
-<div class="row row-cols-1 row-cols-md-2 my-3 g-2">
+<div class="row row-cols-1 row-cols-md-2 mt-3 mb-4 g-2">
     <div class="col">
         <div class="card h-100 bg-primary">
             <div class="card-body text-center py-5">
@@ -48,6 +48,19 @@ Learn-Static is a collection of lesson modules and digital scholarship project t
                 <a href="{{ '/howto/' | relative_url }}" class="stretched-link text-white h1">How to use</a>
             </div>
         </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="row my-4 align-items-center">
+    <div class="col-md-4">
+        <a href="https://www.neh.gov/" target="_blank" rel="noopener">
+            <img src="/assets/img/neh-logo-small.jpg" alt="A blue circle surrounding a bald eagle on the National Endowment for the Humanities seal" class="img-fluid">
+        </a>
+    </div>
+    <div class="col-md-8">
+        <p><small>Any views, findings, conclusions, or recommendations expressed in this space do not necessarily represent those of the National Endowment for the Humanities.</small></p>
     </div>
 </div>
 

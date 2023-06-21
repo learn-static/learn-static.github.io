@@ -30,7 +30,7 @@ Incorporate projects into a humanities or social science-focused classroom to en
 <div class="row pt-2">
 {%- for t in site.data.templates -%}
 <div class="col-md-4">
-    <div class="card my-2">
+    <div class="card my-2 border-warning">
     <div class="card-body">
         <h4 class="card-title">{{ t.title}}</h4>
         <p class="card-text"><strong>Topics:</strong> {{ t.topics }}</p>

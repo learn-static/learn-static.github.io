@@ -31,7 +31,7 @@ Modules introduce basic concepts in static web development, including GitHub, HT
 <div class="row pt-2">
 {%- for m in site.data.modules -%}
 <div class="col-md-4">
-    <div class="card my-2">
+    <div class="card my-2 border-success">
     <div class="card-body">
         <h4 class="card-title"><a href="{{ m.link }}" target="_blank" rel="noopener">{{ m.title}}</a></h4>
         <p class="card-text"><strong>Skills:</strong> {{ m.skills }}</p>
