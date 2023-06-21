@@ -22,3 +22,7 @@ The inter-institutional team behind the Learn-Static initiative was funded by a 
 
 Librarians and Humanities faculty at the University of Idaho and University of Oregon developed, piloted, and evaluated these educational tools over the 2021-2022 school year.
 Learn-Static tools and the methodology behind them stem from the digital collections platform [CollectionBuilder](https://collectionbuilder.github.io/) and the [Lib-Static](https://lib-static.github.io/) community.
+
+![NEH Logo](/assets/img/neh-logo-small.jpg)
+
+Any views, findings, conclusions, or recommendations expressed in this space do not necessarily represent those of the National Endowment for the Humanities.
