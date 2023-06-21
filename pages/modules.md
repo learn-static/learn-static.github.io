@@ -34,7 +34,7 @@ Modules introduce basic concepts in static web development, including GitHub, HT
     <div class="card my-2">
     <div class="card-body">
         <h4 class="card-title"><a href="{{ m.link }}" target="_blank" rel="noopener">{{ m.title}}</a></h4>
-        <p class="card-text"><strong>Skills:</strong> {{ m.skills }}<br>
+        <p class="card-text"><strong>Skills:</strong> {{ m.skills }}</p>
         <p class="card-text">{{ m.description }}</p>
     </div>
     </div>

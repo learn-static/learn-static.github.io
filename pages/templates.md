@@ -36,9 +36,9 @@ Incorporate projects into a humanities or social science-focused classroom to en
         <p class="card-text"><strong>Topics:</strong> {{ t.topics }}</p>
         <p class="card-text">{{ t.description }}</p>
         <p class="card-text text-center">
-        <a class="btn btn-outline-primary btn-lg my-2" href="{{ t.repo-link }}">Code Template</a>
-        <a class="btn btn-outline-secondary btn-lg my-2" href="{{ t.demo-link }}">Demo Site</a>
-        <a class="btn btn-outline-dark btn-lg my-2" href="{{ t.docs-link }}">Project Documentation</a>
+        <a class="btn btn-outline-success btn-lg my-2 btn-custom" href="{{ t.repo-link }}">Code Template</a>
+        <a class="btn btn-outline-warning btn-lg my-2 btn-custom" href="{{ t.demo-link }}">Demo Site</a>
+        <a class="btn btn-outline-info btn-lg my-2" href="{{ t.docs-link }}">Project Documentation</a>
         </p>
     </div>
     </div>
