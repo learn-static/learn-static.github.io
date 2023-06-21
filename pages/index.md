@@ -1,5 +1,5 @@
 ---
-title: Lib-Static
+title: Learn-Static
 layout: page
 permalink: /
 auto-heading: false
