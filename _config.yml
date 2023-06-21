@@ -27,7 +27,7 @@ url:
 # baseurl is your github repository's name prefixed with a /
 baseurl:
 # location of code, the full url to your github repository
-source-code: https://github.com/lib-static/lib-static.github.io
+source-code: https://github.com/learn-static/learn-static.github.io
 
 ##########
 # GOOGLE ANALYTICS [optional!]
@@ -46,15 +46,6 @@ google-analytics-id:
 #######
 # BUILD SETTINGS [usually leave as is]
 #
-# Collections
-collections_dir: content
-collections:
-  community: 
-    output: true
-  concepts: 
-    output: true
-  models: 
-    output: true
 
 # Defaults to simplify front matter,
 # all files in the "pages" folder will be output at root of site
@@ -64,27 +55,6 @@ defaults:
     values:
       layout: page
       permalink: /:basename/
-  - scope: 
-      path: ""
-      type: "concepts"
-    values:
-      layout: content
-      permalink: /:collection/:name/
-      section: "Concepts"
-  - scope: 
-      path: ""
-      type: "community"
-    values:
-      layout: content
-      permalink: /:collection/:name/
-      section: "Community"
-  - scope: 
-      path: ""
-      type: "models"
-    values:
-      layout: project
-      permalink: /:collection/:name/
-      section: "Models"
 
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE, CODE_OF_CONDUCT.md]
