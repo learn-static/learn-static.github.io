@@ -4,6 +4,7 @@ nav: How to Use
 nav_order: 4
 section: How to Use
 section-color: info
+layout: page-narrow
 ---
 
 ## Modules
