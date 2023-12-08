@@ -71,7 +71,7 @@ Modules and templates were created and incorporated into the classroom in Fall 2
 
 #### Advisory Board
 
-- **Chelcie Juliet Rowell**, Head of Digital Scholarship, Tufts University
+- **Chelcie Juliet Rowell**, Associate Head of Digital Collections Discovery, Harvard University
 - **Anne B. McGrail**, Professor of Writing and Literature, Lane Community College
 - **Alanna Prince**, English PhD Student, Northeastern University
 
